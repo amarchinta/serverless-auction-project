@@ -1,0 +1,1 @@
+echo "Deploying All Services TO aws"

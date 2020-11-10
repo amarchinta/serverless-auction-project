@@ -1,0 +1,25 @@
+{
+  "name": "auction-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dynamo": "dynamodb-admin",
+    "start" : "nodemon sls offline start"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dynamodb-admin": "^4.0.0",
+    "nodemon": "^2.0.6",
+    "serverless-bundle": "^3.2.1",
+    "serverless-dynamodb-local": "^0.2.39",
+    "serverless-offline": "^6.8.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.785.0",
+    "serverless": "^2.10.0",
+    "uuid": "^8.3.1"
+  }
+}
